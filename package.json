@@ -1,0 +1,27 @@
+{
+  "name": "first-express-website",
+  "version": "1.0.0",
+  "description": "my first express website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnhullv5/COMP308-W2017-Lab1.git"
+  },
+  "keywords": [
+    "express",
+    "lab1",
+    "bonus"
+  ],
+  "author": "Hao Jiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnhullv5/COMP308-W2017-Lab1/issues"
+  },
+  "homepage": "https://github.com/johnhullv5/COMP308-W2017-Lab1#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
