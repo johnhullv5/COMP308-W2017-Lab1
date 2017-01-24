@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/johnhullv5/COMP308-W2017-Lab1#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "express": "^4.14.0"
   }
 }
