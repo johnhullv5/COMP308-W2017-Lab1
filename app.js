@@ -2,6 +2,7 @@ let express = require("express");
 let app = express();
 let router = express.Router();
 let path = __dirname + '/views/';
+let port = 3001
 
 router.use(function (req,res,next) {
   console.log("/" + req.method);
@@ -26,6 +27,6 @@ app.use("*",function(req,res){
   res.sendFile(path + "404.html");
 });
 
-app.listen(3000,function(){
-  console.log("Live at Port 3000");
+app.listen(port,function(){
+  console.log("Live at Port 3001");
 });
